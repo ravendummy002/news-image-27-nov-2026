@@ -7,17 +7,17 @@
 A newspaper front page summing up the world's news of Friday 27 November 2026,
 entered in the [make.fun bounty](https://make.fun/bounty/news-image-20261127).
 
-Lead story: Kim Jong Un vows to expand North Korea's nuclear arsenal after touring
-nuclear plants. Also: Mount Mayon erupts in the Philippines, the DR Congo Ebola
-outbreak passes 12,000 cases, Ukraine says it hit the Savasleyka air base, two
-Italians killed in a drone attack in Kuwait, EU leaders meet over the 1.7 trillion
-budget, the Macy's Thanksgiving parade is postponed for the first time in 100 years,
-London Tube drivers begin an 8-day strike, New Zealand's final election count, Gukesh
-and Sindarov draw Game 3 of the World Chess Championship, a Bangkok market fire, and
-Duterte's ICC trial set to start on Monday.
+Lead story: Gulf escalation — an Iranian drone attack on a Kuwait military site,
+first reported Friday, killed two Italian technicians; a projectile hit Saudi
+Arabia's Jazan refinery; the US disabled the ship Pacific Archer in the Gulf of
+Oman, the 15th vessel stopped under the blockade. Also: EU summit deadlock in
+Brussels, Zelenskyy vs Trump, the Black Friday market rally, a Thanksgiving storm
+on the US East Coast, Chinese stocks soaring, Ukrainian strikes on Russian energy
+sites, Mexico's complaint over a DEA tip line, Spain's snap election eve, New
+Zealand's final results, an SAP security incident, and a record US trade gap.
 
 `main.ts` (Node 22, standard library only) draws the whole page as a 1024x1024 PNG
-with its own rasterizer, 5x7 bitmap font and palette PNG encoder. No network,
+with its own rasterizer, 5x7 bitmap font and PNG encoder. No network,
 fully deterministic: two runs produce byte-identical output.
 
 ## Run it
